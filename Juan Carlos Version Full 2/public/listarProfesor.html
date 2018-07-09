@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UFT-8">
+  <title>Listar Profesor</title>
+  <link rel="stylesheet" href="css/profesorListarEstilo.css">
+</head>
+
+<body>
+  <div class="wrapper">
+      <div><h1>Lista Profesores</h1></div>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Buscar...">
+
+    <table id="myTable">
+      <tr class="header">
+        <th style="width:17%;">Nombre del Profesor</th>
+        <th style="width:17%;">Apellido</th>
+        <th style="width:17%;">Teléfono</th>
+        <th style="width:17%;">Correo electrónico</th>
+        <th style="width:17%;">Provincia</th>
+        <th style="width:17%;">Grado Académico</th>
+      </tr>
+      <tr>
+        <td>Tobias</td>
+        <td>Funke</td>
+        <td>2381838</td>
+        <td>Funke@hotmail.com</td>
+        <td>San José</td>
+        <td>Licenciado</td>
+      </tr>
+      <tr>
+        <td>Alvaro</td>
+        <td>Fordero</td>
+        <td>94512821</td>
+        <td>ForderoA@hotmail.com</td>
+        <td>San José</td>
+        <td>Licenciado</td>
+      </tr>
+      <tr>
+        <td>Pavel</td>
+        <td>Monesel</td>
+        <td>948128</td>
+        <td>basp@hotmail.com</td>
+        <td>Cartago</td>
+        <td>Master</td>
+      </tr>
+      <tr>
+        <td>Julian</td>
+        <td>Reirtre</td>
+        <td>84721382</td>
+        <td>JR@hotmail.com</td>
+        <td>Alajuela</td>
+        <td>Doctorado</td>
+      </tr>
+
+      <tbody>
+
+        
+      </tbody>
+    </table>
+
+  </div>
+
+  <button type="button" id="btnListarProfesor">Refrescar Lista</button>
+
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2"></script>
+  <script src="js/servicioProfesor.js"></script>
+  <script src="js/controladorProfesor.js"></script>
+</body>
+
+</html>

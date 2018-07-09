@@ -1,0 +1,124 @@
+html {
+    background-image: url("../img/heroBanner.jpg");
+    background-color: #000;
+  }
+.wrapper {
+  margin: 0 auto;
+  max-width: 1400px;  
+}
+
+
+
+
+body {   
+    font-family: tahoma;
+    color: #fbb803;
+}
+
+h1{
+    color: #FFF;
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 0.8;
+    padding: 03%;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+tbody{
+    color: #fff;
+    text-align:justify;
+    margin-right: 3%;
+}
+
+
+input:focus:invalid,
+textarea:focus:invalid {
+    /* Cuando en el buscador el campo es invalido*/
+    background: #fff url(../img/invalid3.png) no-repeat 98% center;
+    box-shadow: 0 0 5px #ed2024;
+    border-color: #ed2024;
+}
+
+input:required:valid,
+textarea:required:valid {
+    /* when a field is considered valid by the browser */
+    background: #fff url(../img/valid3.png) no-repeat 98% center;
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f;
+}
+
+.ocultar {
+    display: none;
+}
+footer{
+    margin-top: 2%;
+}
+
+
+
+
+
+
+/*listarProfesores html*/
+#myInput {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 20px; /* Increase font-size */
+    padding: 10px 20px 10px 20px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myTable {
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    border: 1px /*solid #ddd;  Add a grey border */
+
+}
+
+#myTable th, #myTable td {
+    text-align: center; /* Left-align text */
+    padding: 10spx; /* Add padding */
+}
+
+#myTable tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid #ddd; 
+}
+
+#myTable tr.header, #myTable tr:hover {
+    /* Add a grey background color to the table header and on hover */
+    background-color: #747d8c;
+}
+
+
+button {
+    border-style: dashed;
+    border:Â 4px solid;
+    border-color: #7a7979;
+    padding: 0.7% 5%;
+    border-radius: 50px;
+    background-color: transparent;   
+    color: #fbb803;
+    margin-right: 40%;   
+    cursor: pointer;
+    float: right;
+    margin-top: 25px;
+    margin-bottom: 2%;
+    
+}
+button:hover {
+    border-style: solid;
+    border-color:#fff;
+    color: #fff;
+    -webkit-transition: all 700ms ease;
+    -o-transition: all 700ms ease;
+    transition: all 700ms ease;
+    padding: 0.7% 5%;
+    border-radius: 50px;
+}

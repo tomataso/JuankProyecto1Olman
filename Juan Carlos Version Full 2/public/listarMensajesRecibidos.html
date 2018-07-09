@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UFT-8">
+  <title>Mensajes Recibidos</title>
+  <link rel="stylesheet" href="css/mensajesRecibidosEstilo.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div>
+      <h1>Mensajes Recibidos</h1>
+    </div>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Buscar...">
+
+    <table id="myTable">
+      <tr class="header">
+        <th style="width:10%;">Fecha</th>
+        <th style="width:15%;">Usuario</th>
+        <th style="width:75%;">Asunto</th>
+
+
+      </tr>
+      <tr>
+
+        <td>09/07/2018</td>
+        <td>Tobias</td>
+        <td>No me lista los mensajes el programa. </td>
+
+
+
+      </tr>
+
+      <td>06/07/2018</td>
+      <td>Marco Rojas</td>
+      <td>No hay taquitos en la soda. </td>
+      </tr>
+
+      <tr>
+
+        <td>03/06/2018</td>
+        <td>Alfaro</td>
+        <td>El domingo a medio dia se me descuajiringo este asunto y no se como arreglarlo, los mapaches siguen buscandome. </td>
+
+
+      </tr>
+      <tbody>
+
+
+      </tbody>
+    </table>
+
+
+  </div>
+
+  <button type="button" id="btnListarMensajesRecibidos">Refrescar Mensajes Recibidos</button>
+
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2"></script>
+  <script src="js/servicioProfesor.js"></script>
+  <script src="js/controladorProfesor.js"></script>
+</body>
+
+</html>

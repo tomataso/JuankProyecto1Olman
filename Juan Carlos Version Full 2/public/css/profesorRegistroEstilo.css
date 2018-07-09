@@ -1,0 +1,126 @@
+html {
+    background-image: url("../img/heroBanner.jpg");
+    background-color: #000;
+  }
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1400px;  
+}
+.contactenosHeader a{
+    text-decoration: none;
+    font-size: 1em;
+    color: #aaa;
+    margin-right: 2%;
+    float: right;  
+}
+.contactenosHeader{
+    margin-bottom: 2%; 
+}
+.contactenosHeader a:hover{
+    color:  #fbb803;    
+}
+.menuCont{
+    margin: 2%;
+}
+.menuCont a{    
+    text-decoration: none;
+    color: #fbb803;
+    float: right;
+    margin-bottom: 2%;
+    /* font-size: 1.5em;
+    color: #ffffff; */
+}
+.menuCont a:hover{
+    color: #fff;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease; 
+    text-align: center;
+}
+button {
+    border-style: dashed;
+    border:Â 4px solid;
+    border-color: #7a7979;
+    padding: 0.7% 5%;
+    border-radius: 50px;
+    background-color: transparent;   
+    color: #fbb803;
+    margin-right: 1%;   
+    cursor: pointer;
+    float: right;
+    margin-bottom: 2%;
+}
+button:hover {
+    border-style: solid;
+    border-color:#fff;
+    color: #fff;
+    -webkit-transition: all 700ms ease;
+    -o-transition: all 700ms ease;
+    transition: all 700ms ease;
+    padding: 0.7% 5%;
+    border-radius: 50px;
+}
+iframe{
+    height:710px; 
+    width:100%;
+    border-style: none;
+    box-shadow: 15px 19px 46px -13px #b8bbb8;
+    /* background: #28921f; */
+    border-radius: 50px;
+}
+
+body {   
+    font-family: tahoma;
+    color: #fbb803;
+}
+
+h1{
+    color: #FFF;
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 0.8;
+    padding: 03%;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+/* inicio: Resgistro Profesor */
+#FormularioProfesor input{
+    position: relative;
+    left: 25%;
+    top: 60px;
+    border: none;
+    color: #fbb803;
+    font-size: 1.1em;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    width: 50%;
+    margin-bottom: 3%;
+    height: 30px;
+}
+::placeholder { 
+    color: #999898; 
+    font-size: 1.1em;
+}
+#btnRegistrarProfesor{
+    position: relative;
+    right: 24%; 
+    top: 130px;
+}
+#tblProfesor {
+    position: absolute;
+    top: 140%;
+    margin-left: 5%;
+}
+#tblProfesor thead th {
+    min-width: 10px;
+    text-align: justify;    
+}
+/* fin: Resgistro estudiante */
+
+
+
+

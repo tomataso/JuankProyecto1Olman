@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UFT-8">
+  <title>Mensajes Enviados</title>
+  <link rel="stylesheet" href="css/mensajesEnviadosEstilo.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div>
+      <h1>Mensajes Enviados</h1>
+    </div>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Buscar...">
+
+    <table id="myTable">
+      <tr class="header">
+        <th style="width:10%;">Fecha</th>
+        <th style="width:15%;">Usuario</th>
+        <th style="width:75%;">Asunto</th>
+
+
+      </tr>
+      <tr>
+
+        <td>07/07/2018</td>
+        <td>Franco</td>
+        <td>Vamos el domingo al partido de fut de mario? </td>
+
+
+
+      </tr>
+
+      <td>06/07/2018</td>
+      <td>Arturo</td>
+      <td>Mejenga donde mario. </td>
+      </tr>
+
+      <tr>
+
+        <td>05/06/2018</td>
+        <td>Alfaro</td>
+        <td>Rifa mundialista. </td>
+
+
+      </tr>
+      <tbody>
+
+
+      </tbody>
+    </table>
+
+
+  </div>
+
+  <button type="button" id="btnListarMensajesEnviados">Refrescar Mensajes Enviados</button>
+
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2"></script>
+  <script src="js/servicioProfesor.js"></script>
+  <script src="js/controladorProfesor.js"></script>
+</body>
+
+</html>

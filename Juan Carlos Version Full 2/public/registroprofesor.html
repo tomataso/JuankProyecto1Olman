@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UFT-8">    
+        <title>Registrar Profesor</title>
+        <link rel="stylesheet" href="css/profesorRegistroEstilo.css">
+   
+    </head>
+  <body>
+    <div class="wrapper"> 
+
+            <div>
+                <a class="" href="index.html">
+                <img src="img/CSHLogo.png" alt="Cenfotec Software House Logo">
+                </a>
+            </div>
+
+
+            <!-- * * * * * * * * * * * en este div es en el que tienen que trabajar * * * * * * * * * * * * * * * -->
+            <div><h1>Registro Profesor</h1></div>
+
+            <!-- * Revisar CSS * -->
+            <form id="FormularioProfesor">               
+                <input type="text" placeholder="Nombre" id="txtNombreProfesor">
+                <input type="text" placeholder="Apellido" id="txtApellidoProfesor">
+                <input type="text" placeholder="Cedula" id="txtCedulaProfesor">
+                <input type="text" placeholder="Telefono" id="txtTelefonoProfesor">
+                <input type="text" placeholder="Correo Electronico" id="txtCorreoProfesor">
+
+
+                <input type="text" placeholder="Provincia" id="txtProvinciaProfesor">
+                <input type="text" placeholder="Canton" id="txtCantonProfesor">
+                <input type="text" placeholder="Distrito"id="txtDistritoProfesor">
+                <input type="text" placeholder="Direccion Exacta" id="txtDireccionExactaProfesor">
+
+
+                <input type="text" placeholder="Grado Academico" id="txtGAcademico">
+                <input type="number" placeholder="Anos de Experiencia" id="txtAexperiencia">
+                <input type="text" placeholder="Cursos Impartidos" id="txtCImpartidos">
+
+
+                <button type="button" id="btnRegistrarProfesor">Registrar</button>
+            </form>
+
+            
+    
+    </div> 
+    
+   <!-- * Recordar Que tienen que ir en orden.* -->
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2"></script>
+    
+    <script src="js/servicioProfesor.js"></script>
+    <script src="js/controladorProfesor.js"></script>
+  </body>
+</html>
