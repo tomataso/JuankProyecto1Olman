@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="./css/generales/reset.css">
+    <link rel="stylesheet" href="./css/generales/style.css">
+    <link rel="stylesheet" href="./css/parametros/formulario_parametros.css">
+  </head>
+  <body>
+    <div class="wrapper-formulario">
+        <form>
+            <h3>Parámetros Generales:</h3>
+
+
+            <div class="field">
+              <select id="Periodo"></select> 
+              <label for="Periodo">Periodo</label>
+            </div> 
+            
+
+            <div class="field">
+              <input type="number" id="MaxHorasxCuatri" placeholder="Maximo de horas por cuatrimestre"></input>
+              <label for="MaxHorasxCuatri">Maximo de horas por cuatrimestre</label>
+            </div>
+         
+            <div class="field">
+              <input type="number" id="PorcentajeBecaxHoraTrabajada" placeholder="Porcentaje de beca por hora trabajada"></input>
+              <label for="PorcentajeBecaxHoraTrabajada">Porcentaje de beca por hora trabajada</label>
+            </div>
+
+
+            <button type="button" id="btnEditar" class="btn-guardar">Editar</button> 
+            <button type="button" id="btnGuardar" class="btn-guardar modificar">Guardar</button> 
+        </form>
+
+
+    </div>
+    <script src="./js/jquery-3.3.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2"></script>
+    <script src="./js/parametros/controlador_parametros.js"></script>
+    <script src="./js/parametros/servicio_parametros.js"></script>
+  </body>
+</html>
